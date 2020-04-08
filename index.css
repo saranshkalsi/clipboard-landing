@@ -1,0 +1,212 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* 1 method to give full background image */
+/* html {
+  background: url(images/bg-header-desktop.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+/* 2nd method for full background image without scroll */
+html {
+  background: url(images/bg-header-desktop.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow-x: hidden;
+
+}
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px;
+}
+body p {
+  color: hsl(201, 11%, 66%);
+}
+body h2,h3 {
+  color: hsl(210, 10%, 33%);
+}
+/* Styling and changes for first section  */
+.jumbotron {
+  padding-top: 80px;
+  text-align: center;
+  height: 450px;
+    line-height: 1.2rem;
+}
+.jumbotron h2  {
+  padding-bottom: 10px;
+  padding-bottom: 10px;
+}
+.jumbotron p  {
+  padding-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+#main-logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+button {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  border-color: transparent;
+  color: white;
+  cursor: pointer;
+
+}
+#btn-ios {
+  background-color: hsl(171, 66%, 44%);
+}
+#btn-mac {
+  background-color:  hsl(233, 100%, 69%);
+}
+/* start of text  section */
+.section-text {
+  text-align:  center;
+  line-height: 1.5rem;
+}
+/* end of section */
+/* start of section-1 */
+.container-1 {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+}
+.container-left img {
+  width: 750px;
+}
+.container-right {
+  padding-left: 100px;
+  padding-top: 40px;
+}
+.para-1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* end of section-1 */
+/* start of section-text-1 */
+.section-text-1 {
+  text-align:  center;
+  line-height: 1.5rem;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.section-text-1 img {
+  padding-top: 50px;
+}
+/* end of section-text-1 */
+/* start of section-text-2 */
+.section-text-2
+  {
+    text-align:  center;
+
+    line-height: 1.5rem;
+    margin-bottom: 80px;
+  }
+  /* end of section-text-2 */
+  /* start of flex-container */
+  .badge {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .badge svg {
+    margin-bottom: 40px;
+  }
+  .badge-1 {
+    width: 33.33%;
+
+
+  }
+  .badge-2 {
+    width: 33.33%;
+  }
+  .badge-3 {
+    width: 33.33%;
+  }
+/* end of flex-container */
+/* start of company and its logos */
+.companies {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+
+}
+/* end of company logos */
+/* start of summary column */
+.summary {
+  padding-top: 80px;
+  text-align: center;
+  height: 450px;
+  line-height: 1.2rem;
+  height: 300px;
+}
+.summary h3  {
+  padding-bottom: 10px;
+  padding-bottom: 10px;
+}
+.summary p  {
+  padding-bottom: 10px;
+  padding-bottom: 10px;
+}
+/* end of summary column */
+/* start of main footer */
+.main-footer {
+  display: flex;
+  justify-content: space-around;
+}
+.main-footer ul {
+  list-style-type: none;
+
+}
+.main-footer a {
+  text-decoration: none;
+  color: hsl(201, 11%, 66%);
+
+}
+.main-footer a:hover {
+  text-decoration: none;
+  color: hsl(171, 66%, 44%);
+
+}
+.main-footer svg {
+  cursor: pointer;
+}
+
+/* end of main footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* name and webiste mentioned */
+.attribution {
+  font-size: 11px; text-align: center;
+}
+.attribution a {
+   color: hsl(228, 45%, 44%);
+ }
